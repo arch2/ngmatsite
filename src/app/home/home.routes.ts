@@ -7,11 +7,7 @@ export const HomeRoutes: Routes = [
         component: HomeComponent
     },
     {
-        path: 'mpev',
-        loadChildren: '../+mpev-form/mpev-form.module#MpevFormModule'
-    },
-    {
-        path: 'violations',
-        loadChildren: '../+violations-form/violations-form.module#ViolationsFormModule'
+        path: 'users',
+        loadChildren: '../+users/users.module#UsersModule'
     }
 ];

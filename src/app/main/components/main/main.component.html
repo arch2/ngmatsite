@@ -3,9 +3,10 @@
   <mat-sidenav-content>
     <mat-toolbar color="primary">
       <mat-toolbar-row>
-        <button mat-button (click)="sidenav.toggle()">Material Tester</button>
-        <span class="flex-field"></span>
         <button mat-button routerLink="/">Home</button>
+        <button mat-button routerLink="/users">Users</button>
+        <span class="flex-field"></span>
+        <button mat-button (click)="sidenav.toggle()">Material Tester</button>
       </mat-toolbar-row>
     </mat-toolbar>
     <router-outlet></router-outlet>
