@@ -5,6 +5,7 @@ import { SharedModule } from '../shared';
 import { STEPPER_GLOBAL_OPTIONS } from '@angular/cdk/stepper';
 import { MainRoutingModule } from './main-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 import { HomeModule } from '../home';
 
 import 'hammerjs';
@@ -15,7 +16,8 @@ export const IMPORTED_MODULES: any = [
     SharedModule,
     HomeModule,
     MainRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
 ];
 export const COMPONENT_DECLARATIONS: any[] = [
     MainComponent
